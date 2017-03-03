@@ -36,3 +36,10 @@ Have fun!
 
 ## Result
 Original Image:
+![alt text](https://raw.githubusercontent.com/zw1074/Neural_Style_Transfer/master/figure/cat.jpg)
+
+Style Image:
+![alt text](https://raw.githubusercontent.com/zw1074/Neural_Style_Transfer/master/figure/fea.jpg)
+
+Output Image:
+![alt text](https://raw.githubusercontent.com/zw1074/Neural_Style_Transfer/master/figure/output.png)
