@@ -211,7 +211,7 @@ class Neural_Style(object):
 #         noise = np.random.normal(size=, scale=np.std(self.content) * 0.1)
 #             img_generation = tf.Variable(tf.random_normal([1,224,224,3]) * 0.256, name='generation', trainable=True)
         img_generation = tf.Variable(preprocess(self.content).reshape(1,224,224,3))
-        second_net = Vgg16('vgg16/vgg16.npy')
+        second_net = Vgg16(args.vgg)
         second_net.build(img_generation)
         g_styles = second_net.get_style()
         g_contents = second_net.get_content()
