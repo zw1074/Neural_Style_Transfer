@@ -3,7 +3,9 @@ This is my personal project. I found that many successful neural net model (e.g.
 
 ## Requirement
 python version: 2.7.12 with [Anaconda](https://www.continuum.io/downloads)
+
 Package: [Tensorflow](https://www.tensorflow.org/), [SciPy](https://www.scipy.org/)
+
 VGG16 Weight: [vgg16.npy](https://drive.google.com/file/d/0BzIp01PoYYptNm5vSDhJdXVkMnM/view?usp=sharing)
 
 ## How to run
